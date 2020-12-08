@@ -1,0 +1,79 @@
+@import	url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face{
+	src: url(../font/PTSerif-Bold.ttf);
+	font-family: PTSerif;
+	font-weight: normal;
+}
+
+.page-header{
+	height: 200px;
+	background-color: #E5E000;
+	font-size: 50px;
+	font-family: PTSerif, serif;
+	color: #FFFFFF;
+	line-height: 200px;
+	padding-left: 80px;
+}
+
+.page-cover{
+	height: 1080px;
+	background-image: url(../img/img.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.menu{
+	height: 100px;
+	background-color: #E5E000;
+	color: #FFFFFF;
+	padding-left: 80px;
+}
+
+.menu a{
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: PTSerif, sans-serif;
+	color: #FFFFFF;
+	line-height: 100px;
+}
+
+.page-text{
+	padding: 110px 80px 100px 80px;
+}
+
+.page-text h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: PTSerif, serif;
+	color: #000000;
+}
+
+.page-text p{
+	font-size: 25px;
+	font-family: 'PT Sans', sans-serif;
+	color: #000000;
+	line-height: 57px;
+}
+
+.footer{
+	height: 200px;
+	background-color: #E5E000;
+	background-image: url(../svg/logo.svg);
+	background-position: 80px;
+	background-repeat: no-repeat;
+}
+
+
+.footer-text{
+	text-align: right;
+	font-size: 50px;
+	font-family: PTSerif, serif;
+	color: #FFFFFF;
+	line-height: 200px;
+	padding-right: 80px;
+}
