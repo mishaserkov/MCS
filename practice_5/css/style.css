@@ -1,0 +1,112 @@
+@import	url(reset.css);
+
+.page-header {
+	height: 60px;
+	background-color: #FE1A19;
+	color: #FFFFFF;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+.footer {
+	height: 60px;
+	width: 100%;
+	background-color: #FE1A19;
+	color: #FFFFFF;
+	line-height: 60px;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-text {
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica,sans-serif
+}
+
+h1, h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica,sans-serif;
+}
+
+h2 {
+	padding: 33px 160px 41px 33px;
+}
+
+p {
+	font-size: 20px;
+	font-family: Times New Roman, serif;
+	line-height: 23px;
+	text-align: bottom;
+}
+
+.page-content {
+	position: relative;
+}
+
+.column-1 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	position: absolute;
+	top: 52px;
+	left: 70px;
+}
+
+.column-2 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	position: absolute;
+	top: 52px;
+	left: 520px;	
+}
+
+.column-3 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	height: 800px;
+	border-radius: 30px;
+	position: absolute;
+	top: 52px;
+	left: 970px;
+}
+
+.column-1_container {
+	width: 334px;
+	height: 670px;
+/*	border: 1px solid red;
+*/	position: absolute;
+	top: 97px;
+	right: 33px;
+	bottom: 33px;
+	left: 33px;
+}
+
+.column-2_container {
+	width: 334px;
+	height: 670px;
+/*	border: 1px solid red;
+*/	position: absolute;
+	top: 97px;
+	right: 33px;
+	bottom: 33px;
+	left: 33px;
+}
+
+.column-3_container {
+	width: 334px;
+	height: 670px;
+/*	border: 1px solid red;
+*/	position: absolute;
+	top: 97px;
+	right: 33px;
+	bottom: 33px;
+	left: 33px;
+}
+
