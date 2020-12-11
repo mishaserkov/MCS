@@ -14,7 +14,7 @@
 	background-color: #FE1A19;
 	color: #FFFFFF;
 	line-height: 60px;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 }
 
