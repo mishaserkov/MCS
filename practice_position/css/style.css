@@ -1,0 +1,79 @@
+@import	url(reset.css);
+
+header {
+	height: 60px;
+	background-color: #FE1A19;
+	line-height: 60px;
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 33px;
+	padding-left: 33px; 
+}
+
+.page-content {
+	text-align: center;
+}
+
+.column-1 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	border-radius: 30px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	line-height: 23px;
+	margin: 52px 25px 52px 70px;
+}
+
+.column-2 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	border-radius: 30px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	line-height: 23px;
+	margin: 52px 25px 52px 25px ;
+}
+
+.column-3 {
+	border: 5px solid #E5E000;
+	width: 400px;
+	border-radius: 30px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	line-height: 23px;
+	margin: 52px 70px 52px 25px;
+}
+
+.column-1_container, .column-2_container, .column-3_container {
+	width: 334px;
+/*	border: 1px solid red;
+*/	margin: 41px 33px 33px 33px;
+
+}
+
+footer {
+	height: 60px;
+	background-color: #FE1A19;
+	line-height: 60px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
